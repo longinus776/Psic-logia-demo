@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psic. Profesional | Consultas Presenciales</title>
+    <style>
+        :root {
+            --brand-blue: #4a90e2;
+            --soft-gray: #f9f9f9;
+            --text-dark: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--soft-gray);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--brand-blue);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #ddd; /* Espacio para foto real */
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+        h1 { margin: 10px 0; font-size: 24px; color: var(--brand-blue); }
+        .subtitle { font-size: 16px; color: #666; font-style: italic; }
+
+        /* Contenido Principal */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 { border-left: 4px solid var(--brand-blue); padding-left: 10px; font-size: 20px; }
+
+        .service-list { list-style: none; padding: 0; }
+        .service-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+        }
+        .service-list li::before { content: "✔️"; margin-right: 10px; }
+
+        /* Botón de Acción */
+        .cta-button {
+            display: block;
+            background-color: #25d366; /* Color de WhatsApp */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 30px 0;
+            transition: transform 0.2s;
+        }
+
+        .cta-button:active { transform: scale(0.95); }
+
+        footer { text-align: center; font-size: 12px; color: #999; padding: 20px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="profile-img">👤</div>
+    <h1>Psic. Roberto Mendoza</h1>
+    <p class="subtitle">Especialista en Terapia Cognitivo-Conductual</p>
+</header>
+
+<div class="container">
+    
+    <div class="section">
+        <h2>Sobre mí</h2>
+        <p>Acompaño a personas en su proceso de crecimiento personal, brindando herramientas prácticas para manejar la ansiedad, el estrés y mejorar la salud emocional en un ambiente de respeto y confidencialidad.</p>
+    </div>
+
+    <div class="section">
+        <h2>Servicios</h2>
+        <ul class="service-list">
+            <li>Terapia Individual para adultos</li>
+            <li>Manejo de ansiedad y estrés</li>
+            <li>Orientación familiar</li>
+            <li>Duelos y procesos de pérdida</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Ubicación</h2>
+        <p>📍 Centro Médico Profesional, Local 14<br>
+        Atención presencial: Lunes a Viernes de 8:00 AM a 5:00 PM</p>
+    </div>
+
+    <a href="https://wa.me/50312345678?text=Hola,%20quisiera%20agendar%20una%20cita%20psicológica" class="cta-button">
+        Agendar Cita por WhatsApp
+    </a>
+
+</div>
+
+<footer>
+    &copy; 2026 Psic. Roberto Mendoza - Diseño Web Profesional
+</footer>
+
+</body>
+</html>
